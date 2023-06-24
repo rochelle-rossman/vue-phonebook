@@ -15,10 +15,10 @@ const addContact = (contact) => {
   setContactsInLocalStorage()
 }
 
-// const deleteContact = (contact) => {
-//   contacts.value = contacts.value.filter((c) => c.id !== contact.id)
-//   setContactsInLocalStorage()
-// }
+const deleteContact = (contact) => {
+  contacts.value = contacts.value.filter((c) => c.id !== contact.id)
+  setContactsInLocalStorage()
+}
 </script>
 
 <template>
